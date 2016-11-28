@@ -18,5 +18,20 @@ for (animalCount = 0; animalCount < 6; animalCount++) {
 var partyAnimals = ["lion", "dog", "cat", "bear", "tree"];
 
 for (var i in partyAnimals) {
-  console.log(partyAnimals[i])
+  console.log(partyAnimals[i]);
 }
+
+var weaponChest = ["Mace", "Sorcerer's Stone", "Excalibur"];
+
+var hero = [
+  wizard = "Merlin",
+  weapon = weaponChest[1],
+  power = 30
+];
+
+if (hero[1] = weaponChest[1]) {
+  console.log(hero[0] + ' shall slay the dragon with the' + hero[1])
+}
+  else {
+    
+  } 
