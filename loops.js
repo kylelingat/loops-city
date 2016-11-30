@@ -1,5 +1,3 @@
-
-
 var count;
 
 for (count = 0; count <= 100; count++){
@@ -26,7 +24,7 @@ var weaponChest = ["Mace", "Sorcerer's Stone", "Excalibur"];
 
 var hero = [
   wizard = "Merlin",
-  weapon = weaponChest[1],
+  weapon = weaponChest[2],
   power = 30
 ];
 
