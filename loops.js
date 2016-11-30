@@ -29,9 +29,10 @@ var hero = [
   power = 30
 ];
 
-if (hero[1] = weaponChest[1]) {
-  console.log(hero[0] + ' shall slay the dragon with the' + hero[1])
+if (hero[1] == weaponChest[1]) {
+  console.log(hero[0] + ' shall slay the dragon with the ' +  hero[1]);
 }
   else {
-    
-  } 
+    hero[1] = weaponChest[1];
+    console.log(hero[0] + ' is ready for war with the ' + hero[1]);
+  }
